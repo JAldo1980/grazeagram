@@ -139,10 +139,11 @@ header {
   display: flex;
   gap: 1em;
   background-color: #fff;
+  cursor: pointer;
 }
 
 .main-feed-share-icons img {
-  width: 30px;
+  width: 25px;
 }
 
 .main-feed-like-count {

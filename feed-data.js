@@ -1,12 +1,15 @@
 export const posts = [
   {
-    name: "Vincent van Gogh",
-    username: "vincey1853",
-    location: "Zundert, Netherlands",
+    name: "Shawn Shearer",
+    username: "i_love_sheep80",
+    location: "Eglwysilan, Wales",
     avatar: "images/headshot-1.png",
     post: "sheep-imgs/sheepscape-1.JPG",
-    comment: "just took a few mushrooms lol",
+    comment: "but how cute is that dog!?",
     likes: 21,
+    id: 1,
+    isLiked: false,
+    uuid: `75b86329-0ddf-468f-94d4-d9177ee8d94e`,
   },
   {
     name: "Gustave Courbet",
@@ -16,6 +19,8 @@ export const posts = [
     post: "sheep-imgs/sheepscape-2.JPG",
     comment: "i'm feelin a bit stressed tbh",
     likes: 4,
+    id: 2,
+    uuid: `e769a2b9-3496-47fe-8766-c3cb1a9bd33e`,
   },
   {
     name: "Joseph Ducreux",
@@ -26,6 +31,8 @@ export const posts = [
     comment:
       "gm friends! which coin are YOU stacking up today?? post below and WAGMI!",
     likes: 152,
+    id: 3,
+    uuid: `7e98f17b-5149-436e-807f-e76cfa5229b1`,
   },
   {
     name: "Vincent van Gogh",
@@ -35,6 +42,8 @@ export const posts = [
     post: "sheep-imgs/sheepscape-4.JPG",
     comment: "just took a few mushrooms lol",
     likes: 21,
+    id: 4,
+    uuid: `efe2ba6f-2795-4193-bfc3-4bd25dd07f26`,
   },
   {
     name: "Gustave Courbet",
@@ -44,6 +53,8 @@ export const posts = [
     post: "sheep-imgs/sheepscape-5.JPG",
     comment: "i'm feelin a bit stressed tbh",
     likes: 4,
+    id: 5,
+    uuid: `925b8c57-1e00-4f47-9338-62da4693c673`,
   },
   {
     name: "Joseph Ducreux",
@@ -54,6 +65,8 @@ export const posts = [
     comment:
       "gm friends! which coin are YOU stacking up today?? post below and WAGMI!",
     likes: 152,
+    id: 6,
+    uuid: `27be9854-b910-4095-9f3a-6f3830a2d7e9`,
   },
   {
     name: "Gustave Courbet",
@@ -63,6 +76,8 @@ export const posts = [
     post: "sheep-imgs/sheepscape-7.JPG",
     comment: "i'm feelin a bit stressed tbh",
     likes: 4,
+    id: 7,
+    uuid: `181a53da-9503-4d9d-972c-7cf10f16a2db`,
   },
   {
     name: "Joseph Ducreux",
@@ -73,5 +88,7 @@ export const posts = [
     comment:
       "gm friends! which coin are YOU stacking up today?? post below and WAGMI!",
     likes: 152,
+    id: 8,
+    uuid: `ddf46389-4fe6-48c8-b85f-e7dc04ba058b`,
   },
 ];
