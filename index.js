@@ -31,13 +31,15 @@ function handleLikeClick(postId) {
   render();
 }
 
-// handle image click
+// handle image click event listener
 
 document.addEventListener("click", function (e) {
   if (e.target.dataset.image) {
     handleImageClick(e.target.dataset.image);
   }
 });
+
+// handle image click
 
 function handleImageClick(imageId) {
   const targetImageObject = posts.filter(function (post) {

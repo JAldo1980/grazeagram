@@ -140,6 +140,7 @@ header {
   gap: 1.5em;
   background-color: #fff;
   cursor: pointer;
+  margin-bottom: 0;
 }
 
 i {
