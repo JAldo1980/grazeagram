@@ -98,7 +98,7 @@ header {
 
 .container {
   max-width: 500px;
-  border: 1px solid red;
+
   margin: 0 auto;
 }
 
@@ -137,17 +137,32 @@ header {
 .main-feed-share-icons {
   padding: 1em;
   display: flex;
-  gap: 1em;
+  gap: 1.5em;
   background-color: #fff;
   cursor: pointer;
 }
 
-.main-feed-share-icons img {
-  width: 25px;
+i {
+  font-size: 20px;
+  cursor: pointer;
 }
 
 .main-feed-like-count {
   padding-bottom: 1em;
   padding-left: 1em;
   background-color: #fff;
+}
+
+.fa-solid {
+  color: #999;
+}
+
+.liked {
+  color: red;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.8em;
+  padding-bottom: 1em;
 }
